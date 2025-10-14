@@ -1,0 +1,154 @@
+{
+  "plugins": [
+    {
+      "name": "Cross-Plugin Analytics",
+      "display_name": "cross-plugin-analytics",
+      "enabled": true
+    },
+    {
+      "name": "Space Activity",
+      "display_name": "space-activity",
+      "enabled": true
+    },
+    {
+      "name": "game-theory",
+      "display_name": "game-theory",
+      "enabled": true
+    },
+    {
+      "name": "Social Cohesion Index",
+      "display_name": "social-cohesion-index",
+      "enabled": true
+    },
+    {
+      "name": "Indicateurs Économiques",
+      "display_name": "economic-indicator",
+      "enabled": true
+    },
+    {
+      "name": "Water Security",
+      "display_name": "water-security",
+      "enabled": true
+    },
+    {
+      "name": "Alliance Dynamics",
+      "display_name": "alliance-dynamics",
+      "enabled": true
+    },
+    {
+      "name": "satellite-imagery-france",
+      "display_name": "satellite-imagery-france",
+      "enabled": true
+    },
+    {
+      "name": "Early Warning System",
+      "display_name": "early-warning",
+      "enabled": true
+    },
+    {
+      "name": "Network Analysis",
+      "display_name": "network-analysis",
+      "enabled": true
+    },
+    {
+      "name": "Climate Security",
+      "display_name": "resource-security",
+      "enabled": true
+    },
+    {
+      "name": "Diplomacy Tracker",
+      "display_name": "diplomacy-tracker",
+      "enabled": true
+    },
+    {
+      "name": "Tech Sovereignty",
+      "display_name": "tech-sovereignty",
+      "enabled": true
+    },
+    {
+      "name": "Global Data Mapper",
+      "display_name": "global-data-mapper",
+      "enabled": true
+    },
+    {
+      "name": "Analyse des Conflits",
+      "display_name": "conflict-analysis",
+      "enabled": true
+    },
+    {
+      "name": "ISO Country Data",
+      "display_name": "iso-country-data",
+      "enabled": true
+    },
+    {
+      "name": "Corruption Monitoring",
+      "display_name": "corruption-monitoring",
+      "enabled": true
+    },
+    {
+      "name": "Threat Intelligence",
+      "display_name": "threat-intelligence",
+      "enabled": true
+    },
+    {
+      "name": "Cultural Tension Monitor",
+      "display_name": "cultural-tension-monitor",
+      "enabled": true
+    },
+    {
+      "name": "Demographic Trends",
+      "display_name": "demographic-trends",
+      "enabled": true
+    },
+    {
+      "name": "Crypto Markets",
+      "display_name": "crypto-markets",
+      "enabled": true
+    },
+    {
+      "name": "Cultural Dynamics",
+      "display_name": "cultural-dynamics",
+      "enabled": true
+    },
+    {
+      "name": "Narrative Tracking",
+      "display_name": "narrative-tracking",
+      "enabled": true
+    },
+    {
+      "name": "Analyse Médias et Sentiments",
+      "display_name": "geopolitical-forecasting",
+      "enabled": true
+    },
+    {
+      "name": "Health Security",
+      "display_name": "energy-security",
+      "enabled": true
+    },
+    {
+      "name": "Sanctions Monitor",
+      "display_name": "sanctions-monitor",
+      "enabled": true
+    },
+    {
+      "name": "Media Sentiment Analysis",
+      "display_name": "media-sentiment-analysis",
+      "enabled": true
+    },
+    {
+      "name": "NASA Space Activity",
+      "display_name": "nasa-space-activity",
+      "enabled": true
+    },
+    {
+      "name": "Migration Flows",
+      "display_name": "migration-flows",
+      "enabled": true
+    },
+    {
+      "name": "plugins",
+      "display_name": "Plugins",
+      "enabled": true
+    }
+  ]
+}

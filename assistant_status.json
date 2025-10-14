@@ -1,0 +1,42 @@
+{
+  "found_plugin_dirs": [
+    "geopolis-simple/plugins",
+    "geopolis-simple/plugins/alliance-dynamics",
+    "geopolis-simple/plugins/conflict-analysis",
+    "geopolis-simple/plugins/corruption-monitoring",
+    "geopolis-simple/plugins/cross-plugin-analytics",
+    "geopolis-simple/plugins/crypto-markets",
+    "geopolis-simple/plugins/cultural-dynamics",
+    "geopolis-simple/plugins/cultural-tension-monitor",
+    "geopolis-simple/plugins/demographic-trends",
+    "geopolis-simple/plugins/diplomacy-tracker",
+    "geopolis-simple/plugins/early-warning",
+    "geopolis-simple/plugins/economic-indicator",
+    "geopolis-simple/plugins/energy-security",
+    "geopolis-simple/plugins/game-theory",
+    "geopolis-simple/plugins/geopolitical-forecasting",
+    "geopolis-simple/plugins/global-data-mapper",
+    "geopolis-simple/plugins/iso-country-data",
+    "geopolis-simple/plugins/media-sentiment-analysis",
+    "geopolis-simple/plugins/migration-flows",
+    "geopolis-simple/plugins/narrative-tracking",
+    "geopolis-simple/plugins/nasa-space-activity",
+    "geopolis-simple/plugins/network-analysis",
+    "geopolis-simple/plugins/resource-security",
+    "geopolis-simple/plugins/sanctions-monitor",
+    "geopolis-simple/plugins/satellite-imagery-france",
+    "geopolis-simple/plugins/social-cohesion-index",
+    "geopolis-simple/plugins/space-activity",
+    "geopolis-simple/plugins/tech-sovereignty",
+    "geopolis-simple/plugins/threat-intelligence",
+    "geopolis-simple/plugins/water-security"
+  ],
+  "created_plugin": "geopolis-simple/plugins/gov-open-data",
+  "updated_plugins": [
+    "geopolis-simple/plugins"
+  ],
+  "modified_frontend_files": [
+    "geopolis-simple/app/public/index.html"
+  ],
+  "output_zip": "/mnt/data/geopolis-simple-modified.zip"
+}

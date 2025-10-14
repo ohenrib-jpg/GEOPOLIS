@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEOPOLIS v3.0 - Dashboard Géopolitique</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Sidebar -->
+        <aside id="sidebar">
+            <div class="logo">
+                <h1>🌍 GEOPOLIS</h1>
+                <span class="version">v3.0</span>
+            </div>
+            
+            <nav id="nav">
+                <a href="#dashboard" class="nav-item active" data-view="dashboard">
+                    <span class="icon">📊</span>
+                    <span>Dashboard</span>
+                </a>
+                <a href="#analyse" class="nav-item" data-view="analyse">
+                    <span class="icon">🔍</span>
+                    <span>Analyse Thématique</span>
+                </a>
+                <a href="#tuteur" class="nav-item" data-view="tuteur">
+                    <span class="icon">🧠</span>
+                    <span>Tuteur IA</span>
+                </a>
+                <a href="#plugins" class="nav-item" data-view="plugins">
+                    <span class="icon">🔌</span>
+                    <span>Plugins</span>
+                </a>
+                <a href="#settings" class="nav-item" data-view="settings">
+                    <span class="icon">⚙️</span>
+                    <span>Paramètres</span>
+                </a>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div id="status" class="status"></div>
+            </div>
+        </aside>
+        
+        <!-- Main Content -->
+        <main id="content">
+            <div id="view-container"></div>
+        </main>
+    </div>
+    
+    <script src="/js/api.js"></script>
+    <script src="/js/views/dashboard.js"></script>
+    <script src="/js/views/analyse.js"></script>
+    <script src="/js/views/tuteur.js"></script>
+    <script src="/js/views/plugins.js"></script>
+    <script src="/js/views/settings.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>

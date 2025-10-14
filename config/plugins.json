@@ -1,0 +1,10 @@
+{ 
+  "api_keys": { 
+    "acled": "", 
+    "openai": "" 
+  }, 
+  "user": { 
+    "email": "votre.email@example.com", 
+    "preferences": {} 
+  } 
+} 

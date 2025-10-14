@@ -1,0 +1,48 @@
+GEOPOLIS/
+│
+├── app.py                     # Serveur Flask UNIQUE
+│
+├── frontend/                  # Frontend unifié
+│   ├── index.html            # SPA unique
+│   ├── js/
+│   │   ├── app.js            # Router frontend
+│   │   ├── api.js            # Client API centralisé
+│   │   ├── views/
+│   │   │   ├── dashboard.js
+│   │   │   ├── analyse.js
+│   │   │   ├── tuteur.js
+│   │   │   └── settings.js
+│   │   └── components/
+│   │       ├── sidebar.js
+│   │       └── header.js
+│   └── css/
+│       └── styles.css
+│
+├── backend/                   # Backend modulaire
+│   ├── __init__.py
+│   ├── config.py             # Configuration centralisée
+│   │
+│   ├── modules/
+│   │   ├── analyse_thematique/
+│   │   │   ├── __init__.py
+│   │   │   ├── routes.py     # Blueprint
+│   │   │   └── service.py    # Logique métier
+│   │   │
+│   │   ├── tuteur_ia/
+│   │   │   ├── __init__.py
+│   │   │   ├── routes.py
+│   │   │   └── service.py
+│   │   │
+│   │   └── plugins/
+│   │       ├── __init__.py
+│   │       ├── routes.py
+│   │       └── manager.py
+│   │
+│   └── core/
+│       ├── ai_manager.py     # Gestionnaire IA unifié
+│       ├── database.py
+│       └── utils.py
+│
+└── plugins/                   # Plugins utilisateur
+    ├── gov_open_data/
+    └── finance/
